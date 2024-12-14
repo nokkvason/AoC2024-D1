@@ -26,7 +26,7 @@ def only_descending(list: list) -> bool:
             return False
     return True
 
-def problem_dampener(list: list):
+def problem_dampener(list: list) -> bool:
     for i in range(len(list)):
         new_list = list.copy()
         new_list.pop(i)
